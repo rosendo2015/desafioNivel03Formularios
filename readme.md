@@ -1,6 +1,6 @@
 # Desafio do nível 03 avançado - Formulários
 
-![preview](.github/preview.jpg)
+![preview](github/preview.jpg)
 
 > Trilha Explorer 
 
