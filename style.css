@@ -1,0 +1,269 @@
+*{
+    border: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body {
+    background: #E5E5E5;
+    font-family: 'Poppins', sans-serif;
+    color: #4e4958;
+}
+
+header h1 {
+    font-family: 'Staatliches', cursive;
+    color: #fff;
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 45px;
+    margin-bottom: -10px;
+}
+
+
+header p {
+    font-size: 16px;
+    line-height: 24px;
+    color: #fff;
+}
+
+header img {
+    width: 225px;
+    height: 100px;
+    margin: 2px auto 32px;
+}
+
+body::before {
+    display: flex;
+    content: '';
+    width: 100%;
+    height: 403px;
+    background: #293241;
+    position: absolute;
+    z-index: -1;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+header h1 {
+    margin-top: 45px;
+}
+
+main {
+    width: 750px;
+
+    margin: auto;
+    background: #fff;
+    border-radius: 20px;
+}
+
+form {
+    padding: 31px 64px 64px;
+    border-radius: 0 0 20px 20px;
+
+}
+
+main .cabecalho {
+    height: 133px;
+}
+
+.cabecalho {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background: #F67669;
+    border-radius: 20px 20px 0 0;
+    height: 133px;
+}
+
+h2 {
+    font-family: 'Staatliches', cursive;
+    font-size: 24px;
+    line-height: 34px;
+    text-align: center;
+    font-weight: normal;
+}
+
+.cabecalho h2 {
+    color: #fff;
+
+}
+
+main h2 {
+    color: #253b51;
+    margin-bottom: 10px;
+}
+
+.title-block {
+    border-bottom: 1px solid #e6e6f0;
+    margin-bottom: 31px;
+}
+
+main fieldset {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 31.73px;
+    padding-bottom: 0;
+
+}
+
+main fieldset .wrapper-input-r1 {
+    display: flex;
+}
+
+input,
+select {
+    height: 55.53px;
+    padding-left: 20px;
+    font-size: 20px;
+    color: #4e4958;
+}
+
+input,
+textarea,
+select {
+    border: 2px solid #E6E6F0;
+    width: 100%;
+    border-radius: 8px;
+}
+
+textarea {
+    margin-top: 7.93px;
+    height: 166.59px;
+    padding: 20px;
+    font-size: 20px;
+    color: #4e4958;
+}
+
+.input-group-select {
+    width: 50%;
+}
+
+.input-group-select select {
+    appearance: none;
+    color: #4e4958;
+}
+
+.input-group {
+    display: block;
+    width: 100%;
+}
+
+.input-group input,
+.input-group-select select {
+    margin: 8px 0 15px;
+}
+
+label span {
+    font-size: 12px;
+    margin-left: 9px;
+    color: #c1bccc;
+    line-height: 20px;
+}
+
+main fieldset .wrapper-input-r1 {
+    gap: 22px;
+    color: #4e4958;
+}
+
+.input-group-check {
+    position: relative;
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+
+    left: 0;
+    top: 1;
+
+
+}
+
+.input-group-check label {
+    display: flex;
+    margin-top: 3px;
+    margin-left: 38px;
+    font-size: 14px;
+}
+
+.input-group-check input {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 24px;
+    height: 24px;
+    opacity: 0;
+
+}
+
+.input-group-check label::before {
+    background-color: #fff;
+    position: absolute;
+    left: 0;
+    top: 0;
+
+    content: " ";
+    width: 24px;
+    height: 24px;
+    display: block;
+
+    border: 2px solid #E6E6F0;
+    border-radius: 8px;
+
+    cursor: pointer;
+
+}
+
+.input-group-check input:checked+label::before {
+    background-color: #F67669;
+    border: 2px solid;
+}
+
+.input-group-check input:checked+label::before {
+    background-image: url("data:image/svg+xml,%3Csvg width='24' height='24' viewBox='0 0 24 24' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M9.00016 16.1698L4.83016 11.9998L3.41016 13.4098L9.00016 18.9998L21.0002 6.99984L19.5902 5.58984L9.00016 16.1698Z' fill='%2342D3FF'/%3E%3C/svg%3E%0A");
+}
+
+.col-3 {
+    display: flex;
+}
+
+.col-3>div:nth-child(1) {
+    width: 100%;
+    margin-right: 32px;
+}
+
+.col-3>div:nth-child(2) {
+    width: 25%;
+    margin-right: 10px;
+}
+
+.col-3>div:nth-child(3) {
+    width: 25%;
+}
+
+
+.btn {
+    font-family: 'Staatliches', cursive;
+    width: 622px;
+    height: 51px;
+    margin: 30px auto 0;
+    background-color: #F67669;
+    border-radius: 8px;
+    color: #fff;
+    font-size: 20px;
+    line-height: 26px;
+    font-weight: 400;
+    cursor: pointer;
+}
+.btn:hover{
+background-color: #f04936;
+}
+
+input:invalid, textarea:invalid{
+    border: 1px solid #f04936;
+}
